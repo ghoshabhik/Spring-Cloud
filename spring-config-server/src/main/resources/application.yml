@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ghoshabhik/spring-cloud-configurations
+          searchPaths:
+            - "*service"
+server:
+  port: 8889
